@@ -1,1 +1,1 @@
-# internship at itcode
+# internship at it-code
