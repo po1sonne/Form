@@ -6,41 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Document</title>
     <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
   </head>
   <body>
     <section>
       <header>
         <h1>Регистрация в нашей системе</h1>
-        <p>
+        <p class="text_content">
           Мы не передаем данные третьим лицам. Заполненная информация будет
           использоваться только для выбранных вами уведомлений и отображения
           внутри системы.
         </p>
       </header>
 
-      <div class="form">
-        Email*
-        <input type="text"/>
+      <div class="form_wrapper">
+        <p class="text_content">Email*</p>
+        <input type="text" placeholder="Ваш email" required/>
       </div>
-      <div class="form">
-        Пароль*
-        <input type="password"/>
+      <div class="form_wrapper">
+        <p class="text_content">Телефон*</p>
+        <input type="tel" placeholder="+7" required />
       </div>
-      <div class="form">
-        Повторите пароль*
-        <input type="password"/>
+      <div class="form_wrapper">
+        <p class="text_content">Пароль*</p>
+        <input type="password" placeholder="Ваш пароль" required/>
       </div>
-      <div class="form">
-        Имя*
-        <input type="text"/>
+      <div class="form_wrapper">
+        <p class="text_content">Повторите пароль*</p>
+        <input type="password" placeholder="Пароль ещё раз" required/>
       </div>
-      <div class="form">
-        Фамилия*
-        <input type="text"/>
+      <div class="form_wrapper">
+        <p class="text_content">Имя*</p>
+        <input type="text" placeholder="Ваше имя" required/>
       </div>
-      <div class="form">
-        Телефон*
-        <input type="tel"/>
+      <div class="form_wrapper">
+        <p class="text_content">Фамилия*</p>
+        <input type="text" placeholder="Ваша фамилия" required/>
+      </div>
+      <div class="form_wrapper">
+        <p class="text_content">Дата рождения*</p>
+        <input type="date" required/>
+      </div>
+
+      <div class="checkbox_wrapper">
+        <input type="checkbox">
+        Даю согласие на обработку персональных данных. Ознакомлен с <a href="#">политикой конфедециальности.</a> 
+      </div>
+
+      <div class="btn_wrapper">
+        <input type="button" value="Зарегистрироваться">
+        <input type="reset" value="Очистить">
       </div>
     </section>
   </body>
