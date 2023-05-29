@@ -74,19 +74,19 @@ header p {
   transform: scale3d(0.9, 0.9, 1);
 }
 
+@media (min-width: 190px) {
+  section {
+    width: 80%;
+    margin-top: 0;
+  }
+}
 @media (min-width: 280px) {
   section {
-    width: 70%;
+    width: 80%;
     margin-top: 10%;
   }
 }
-@media (min-width: 375px) {
-  section {
-    width: 70%;
-    margin-top: 10%;
-  }
-}
-@media (min-width: 190px) {
+@media (min-width: 360px) {
   section {
     width: 80%;
     margin-top: 10%;
@@ -116,7 +116,7 @@ header p {
 }
 @media (min-width: 1024px) {
   section {
-    width: 35%;
+    width: 40%;
     margin-top: 0;
   }
 }
