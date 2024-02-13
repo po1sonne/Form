@@ -64,15 +64,17 @@ header p {
   min-height: 40px;
   border-radius: 2px;
   border-width: 0;
-  background-color: mediumturquoise;
+  background-color: rgb(71, 209, 205);
   transition: background-color 0.6s, transform 0.1s;
 }
 .btn_wrapper input:hover {
-  background-color: cadetblue;
+  background-color: rgb(96, 157, 159);
 }
 .btn_wrapper input:active {
   transform: scale3d(0.9, 0.9, 1);
 }
+
+TODO: ниже переписать всё на CQ и >= вместо minmax
 
 @media (min-width: 190px) {
   section {
