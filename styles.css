@@ -74,7 +74,7 @@ header p {
   transform: scale3d(0.9, 0.9, 1);
 }
 
-TODO: ниже переписать всё на CQ и >= вместо minmax
+TODO ниже переписать всё на CQ и >= вместо minmax
 
 @media (min-width: 190px) {
   section {
